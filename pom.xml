@@ -81,7 +81,7 @@
 
             <!--optional-->
             <dependency>
-                <groupId>org.mybatis</groupId>
+                <groupId>android.org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
                 <version>${mybatis.version}</version>
                 <scope>provided</scope>

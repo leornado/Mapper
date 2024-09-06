@@ -53,7 +53,7 @@
 
         <!--可选依赖-->
         <dependency>
-            <groupId>org.mybatis</groupId>
+            <groupId>android.org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
         </dependency>
 
