@@ -24,14 +24,18 @@
 
 package tk.mybatis.mapper.mapperhelper;
 
+import com.googlecode.openbeans.BeanInfo;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.Introspector;
+import com.googlecode.openbeans.PropertyDescriptor;
 import tk.mybatis.mapper.MapperException;
 import tk.mybatis.mapper.entity.EntityField;
 
 import javax.persistence.Entity;
-import java.beans.BeanInfo;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.PropertyDescriptor;
+// import java.beans.BeanInfo;
+// import java.beans.IntrospectionException;
+// import java.beans.Introspector;
+// import java.beans.PropertyDescriptor;
 import java.lang.reflect.*;
 import java.util.*;
 

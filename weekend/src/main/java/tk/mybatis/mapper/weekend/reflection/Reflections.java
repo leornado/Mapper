@@ -25,9 +25,10 @@
 
 package tk.mybatis.mapper.weekend.reflection;
 
+import com.googlecode.openbeans.Introspector;
 import tk.mybatis.mapper.weekend.Fn;
 
-import java.beans.Introspector;
+// import java.beans.Introspector;
 import java.lang.invoke.SerializedLambda;
 import java.lang.reflect.Method;
 import java.util.regex.Pattern;

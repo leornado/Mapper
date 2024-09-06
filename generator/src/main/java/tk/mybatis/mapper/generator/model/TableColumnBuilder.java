@@ -24,12 +24,13 @@
 
 package tk.mybatis.mapper.generator.model;
 
+import com.googlecode.openbeans.Introspector;
 import org.mybatis.generator.api.FullyQualifiedTable;
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
 
-import java.beans.Introspector;
+// import java.beans.Introspector;
 import java.util.ArrayList;
 import java.util.List;
 

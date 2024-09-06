@@ -24,7 +24,9 @@
 
 package tk.mybatis.mapper.entity;
 
-import java.beans.PropertyDescriptor;
+// import java.beans.PropertyDescriptor;
+import com.googlecode.openbeans.PropertyDescriptor;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

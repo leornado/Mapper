@@ -26,7 +26,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>tk.mybatis</groupId>
+        <groupId>android.tk.mybatis</groupId>
         <artifactId>mapper-modules</artifactId>
         <version>${revision}</version>
     </parent>
@@ -42,6 +42,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>me.champeau.openbeans</groupId>
+            <artifactId>openbeans</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
@@ -78,7 +83,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>tk.mybatis</groupId>
+            <groupId>android.tk.mybatis</groupId>
             <artifactId>mapper-base</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

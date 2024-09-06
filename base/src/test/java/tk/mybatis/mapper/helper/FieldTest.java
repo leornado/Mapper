@@ -24,6 +24,10 @@
 
 package tk.mybatis.mapper.helper;
 
+import com.googlecode.openbeans.BeanInfo;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.Introspector;
+import com.googlecode.openbeans.PropertyDescriptor;
 import org.junit.Test;
 import tk.mybatis.mapper.entity.EntityField;
 import tk.mybatis.mapper.mapperhelper.FieldHelper;
@@ -31,10 +35,10 @@ import tk.mybatis.mapper.model.Country;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.beans.BeanInfo;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.PropertyDescriptor;
+// import java.beans.BeanInfo;
+// import java.beans.IntrospectionException;
+// import java.beans.Introspector;
+// import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
